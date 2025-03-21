@@ -73,6 +73,6 @@ There will be 8 files written. Each file store the waiting time of each entity.
 - `dock_queue_C.csv`
 - `dock_queue_D.csv`
 
-Each file as the following field: `time`, `id`, `prev_WaitTime`, `curr_WaitTime`. `time` is current timestamp. Each entity is tagged with their unique ID. To get the waiting time of each entity you will need to do `curr_WaitTime - prev_WaitTime`. This is because I can't write the difference directly to file. 
+Each file as the following field: `replication_no`,`time`, `id`, `prev_WaitTime`, `curr_WaitTime`. `time` is current timestamp. `replication_no` refers to which replication run this row comes from. Each entity is tagged with their unique ID. To get the waiting time of each entity you will need to do `curr_WaitTime - prev_WaitTime`. This is because I can't write the difference directly to file.
 
 In order to find the average waiting time of each individual, you will need to find the waiting time for each queue and divide it by all the queues it had. For example if tourist 67 spend 2 mins in bicycle queue A, 3 mins dock queue B, 2 mins in bicycle queue C, the average waiting time is `(2+3+2) / 3`. So to calculate the average waiting time of everybody, it's the total waiting time / the total number of queues that everybody had gone through.
