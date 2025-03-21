@@ -1,0 +1,43 @@
+[RESOURCES]
+Dock_D
+Dock_A
+Dock_C
+Dock_B
+[VARIABLES]
+Visit Attraction D.NumberIn
+Visit Attraction C.NumberIn
+Visit Attraction B.NumberIn
+Visit Attraction A.NumberIn
+Visit Attraction D.NumberOut
+Visit Attraction C.NumberOut
+Visit Attraction B.NumberOut
+Visit Attraction A.NumberOut
+Exit.NumberOut
+Is Visits Left D?.NumberOut True
+Is Visits Left A?.NumberOut True
+Is Visits Left B?.NumberOut True
+Is Visits Left C?.NumberOut True
+Is Visits Left D?.NumberOut False
+Is Visits Left A?.NumberOut False
+Is Visits Left B?.NumberOut False
+Is Visits Left C?.NumberOut False
+Create Tourists D.NumberOut
+Create Tourists C.NumberOut
+Create Tourists B.NumberOut
+Create Tourists A.NumberOut
+Create Bikes For D.NumberOut
+Create Bikes For C.NumberOut
+Create Bikes For B.NumberOut
+Create Bikes For A.NumberOut
+Is Tourist D?.NumberOut True
+Is Tourist A?.NumberOut True
+Is Tourist C?.NumberOut True
+Is Tourist B?.NumberOut True
+Is Tourist D?.NumberOut False
+Is Tourist A?.NumberOut False
+Is Tourist C?.NumberOut False
+Is Tourist B?.NumberOut False
+Get off Bike A.NumberOut Orig
+Get off Bike D.NumberOut Orig
+Get off Bike C.NumberOut Orig
+Get off Bike B.NumberOut Orig

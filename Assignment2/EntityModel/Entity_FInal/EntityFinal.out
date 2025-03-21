@@ -1,0 +1,112 @@
+
+                                      ARENA Simulation Results
+                              vaibhavritam@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/21/2025
+Analyst: vaibhavritam@gmail.com                                      Model revision date: 3/21/2025
+
+Replication ended at time      : 8.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Bike.VATime                                     --         --         --         --          0
+Bike.NVATime                                    --         --         --         --          0
+Bike.WaitTime                                   --         --         --         --          0
+Bike.TranTime                                   --         --         --         --          0
+Bike.OtherTime                                  --         --         --         --          0
+Bike.TotalTime                                  --         --         --         --          0
+Tourist.VATime                              1.4183     (Insuf)    .63033     2.3044        121    
+Tourist.NVATime                             .00000     (Insuf)    .00000     .00000        121    
+Tourist.WaitTime                            .24056     (Insuf)    .00000     .91895        121    
+Tourist.TranTime                            .20109     (Insuf)    .03540     .48128        121    
+Tourist.OtherTime                           .00000     (Insuf)    .00000     .00000        121    
+Tourist.TotalTime                           1.8600     (Insuf)    .68155     3.4248        121    
+Wait for a Free Bike C.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000         60    
+Wait for a Free Bike A.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000         68    
+Wait for a Free Bike D.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000         68    
+Match Tourist to Bike D.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         68    
+Match Tourist to Bike D.Queue2.WaitingTime  4.6645     (Insuf)    .50768     7.7877         68    
+Match Tourist to Bike C.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         60    
+Match Tourist to Bike C.Queue2.WaitingTime  4.2416     (Insuf)    .57578     7.8843         60    
+Match Tourist to Bike A.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         68    
+Match Tourist to Bike A.Queue2.WaitingTime  4.4793     (Insuf)    .36476     7.7798         68    
+Match Tourist to Bike B.Queue1.WaitingTime  .00000     (Insuf)    .00000     .00000         61    
+Match Tourist to Bike B.Queue2.WaitingTime  3.7652     (Insuf)    .51040     7.9287         61    
+Wait for a Free Bike B.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000         61    
+Wait for free dock A.Queue.WaitingTime      .02823     (Insuf)    .00000     .33244         68    
+Wait for free dock D.Queue.WaitingTime      .08298     (Insuf)    .00000     .50541         59    
+Wait for free dock B.Queue.WaitingTime      .01091     (Insuf)    .00000     .52971         61    
+Wait for free dock C.Queue.WaitingTime      .41878     (Insuf)    .00000     .81849         60    
+Put Bike in Dock D.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000        139    
+Put Bike in Dock C.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000        140    
+Put Bike in Dock B.Queue.WaitingTime        .00000     (Insuf)    .00000     .00000        141    
+Put Bike in Dock.Queue.WaitingTime          .00000     (Insuf)    .00000     .00000        148    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Bike.WIP                                    327.70     (Insuf)    .00000     338.00     329.00    
+Tourist.WIP                                 31.804     (Insuf)    .00000     49.000     32.000    
+Dock_D.NumberBusy                           78.104     (Insuf)    .00000     80.000     71.000    
+Dock_D.NumberScheduled                      80.000     (Insuf)    80.000     80.000     80.000    
+Dock_D.Utilization                          .97630     (Insuf)    .00000     1.0000     .88750    
+Dock_A.NumberBusy                           77.743     (Insuf)    .00000     80.000     80.000    
+Dock_A.NumberScheduled                      80.000     (Insuf)    80.000     80.000     80.000    
+Dock_A.Utilization                          .97179     (Insuf)    .00000     1.0000     1.0000    
+Dock_C.NumberBusy                           79.977     (Insuf)    .00000     80.000     80.000    
+Dock_C.NumberScheduled                      80.000     (Insuf)    80.000     80.000     80.000    
+Dock_C.Utilization                          .99971     (Insuf)    .00000     1.0000     1.0000    
+Dock_B.NumberBusy                           76.466     (Insuf)    .00000     80.000     80.000    
+Dock_B.NumberScheduled                      80.000     (Insuf)    80.000     80.000     80.000    
+Dock_B.Utilization                          .95583     (Insuf)    .00000     1.0000     1.0000    
+Wait for a Free Bike C.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Wait for a Free Bike A.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Wait for a Free Bike D.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Match Tourist to Bike D.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Match Tourist to Bike D.Queue2.NumberInQue  78.104     (Insuf)    .00000     80.000     71.000    
+Match Tourist to Bike C.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Match Tourist to Bike C.Queue2.NumberInQue  79.977     (Insuf)    .00000     80.000     80.000    
+Match Tourist to Bike A.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Match Tourist to Bike A.Queue2.NumberInQue  77.743     (Insuf)    .00000     80.000     80.000    
+Match Tourist to Bike B.Queue1.NumberInQue  .00000     (Insuf)    .00000     1.0000     .00000    
+Match Tourist to Bike B.Queue2.NumberInQue  76.466     (Insuf)    .00000     80.000     80.000    
+Wait for a Free Bike B.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
+Wait for free dock A.Queue.NumberInQueue    .23996     (Insuf)    .00000     4.0000     .00000    
+Wait for free dock D.Queue.NumberInQueue    .61197     (Insuf)    .00000     3.0000     .00000    
+Wait for free dock B.Queue.NumberInQueue    .29878     (Insuf)    .00000     8.0000     7.0000    
+Wait for free dock C.Queue.NumberInQueue    3.1408     (Insuf)    .00000     11.000     .00000    
+Put Bike in Dock D.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Put Bike in Dock C.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Put Bike in Dock B.Queue.NumberInQueue      .00000     (Insuf)    .00000     .00000     .00000    
+Put Bike in Dock.Queue.NumberInQueue        .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Bike.NumberIn                               577.00    
+Bike.NumberOut                              248.00    
+Tourist.NumberIn                            153.00    
+Tourist.NumberOut                           121.00    
+Dock_D.NumberSeized                         139.00    
+Dock_D.ScheduledUtilization                 .97630    
+Dock_A.NumberSeized                         148.00    
+Dock_A.ScheduledUtilization                 .97179    
+Dock_C.NumberSeized                         140.00    
+Dock_C.ScheduledUtilization                 .99971    
+Dock_B.NumberSeized                         141.00    
+Dock_B.ScheduledUtilization                 .95583    
+System.NumberOut                            121.00    
+
+
+Simulation run time: 0.05 minutes.
+Simulation run complete.
